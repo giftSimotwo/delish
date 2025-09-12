@@ -139,7 +139,7 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_HOSTS = [
+ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
     'delishgin.onrender.com',
