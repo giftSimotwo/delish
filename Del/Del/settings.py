@@ -148,7 +148,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000", 
     "http://127.0.0.1:3000",
     'https://delish-app.vercel.app',
-    'www.delishfoods.online',
+    'https://www.delishfoods.online',
 ]
 
 CORS_ALLOW_CREDENTIALS = True
