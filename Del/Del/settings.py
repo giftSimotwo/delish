@@ -142,15 +142,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'delishgin.onrender.com',
-    'api.delishgin.com',
+    'delishgin.onrender.com'
 ]
 
 CORS_ALLOWED_ORIGINS = [ 
     "http://localhost:3000", 
     "http://127.0.0.1:3000",
     'https://delish-app.vercel.app',
-    'https://www.delishfoods.online',
 ]
 
 CORS_ALLOW_CREDENTIALS = True
